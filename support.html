@@ -3,44 +3,98 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>AstroMation — Support</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-         max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; color: #1a1a2e; background: #fafafa; }
-  @media (prefers-color-scheme: dark) { body { color: #e8e8f0; background: #12121c; } a { color: #c9a84c; } }
-  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
-  h2 { font-size: 1.1rem; margin-top: 1.8rem; }
-  .muted { color: #6a6a7a; font-size: .9rem; }
-  a { color: #8a6d1f; }
-</style>
+<title>Support — AstroMation</title>
+<meta name="description" content="Get help with AstroMation: frequently asked questions about charts, Premium, purchases, and how to contact us." />
+<meta property="og:title" content="Support — AstroMation" />
+<meta property="og:description" content="Answers to common questions, plus how to reach us — we reply fast." />
+<meta name="theme-color" content="#090b16" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,440;9..144,600&amp;family=Outfit:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<h1>AstroMation — Support</h1>
-<p class="muted">We're here to help.</p>
+<div class="sky"></div>
+<div class="stars-far"></div>
+<div class="stars"></div>
 
-<p>For any question, problem, or feedback about AstroMation, email us at
-<a href="mailto:info@machinity.ai">info@machinity.ai</a> and we'll get back to you.</p>
+<header class="site-header">
+  <nav>
+    <a class="brand" href="index.html" aria-label="AstroMation home">
+      <svg width="22" height="22" viewBox="0 0 64 64" aria-hidden="true"><path fill="#e7c272" d="M32 6c2 14 6 20 26 26-20 6-24 12-26 26-2-14-6-20-26-26 20-6 24-12 26-26z"/></svg>
+      AstroMation
+    </a>
+    <div class="nav-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html" aria-current="page">Support</a>
+    </div>
+  </nav>
+</header>
 
-<h2>Frequently asked</h2>
-<p><strong>How is my birth chart calculated?</strong><br>
-Entirely on your device, using a professional astronomy engine. Your birth data stays on your phone by default.</p>
+<main class="doc fade-in">
+  <header class="doc-head">
+    <p class="eyebrow">Support</p>
+    <h1>How can we help?</h1>
+    <p class="updated">We usually reply within a day</p>
+  </header>
 
-<p><strong>What does Premium include?</strong><br>
-Unlimited daily readings and the Ask consultation chat. The natal birth chart is free for everyone.
-Premium is an auto-renewable subscription (monthly or yearly); manage or cancel anytime in your
-App Store account settings.</p>
+  <div class="contact-card">
+    <div>
+      <h2>Talk to a human</h2>
+      <p>For any question, problem, or feedback about AstroMation, email us and
+      we'll get back to you.</p>
+    </div>
+    <a class="btn" href="mailto:info@machinity.ai">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+      info@machinity.ai
+    </a>
+  </div>
 
-<p><strong>How do I restore a purchase?</strong><br>
-Open Settings (the "More" tab) and tap "Restore purchase", or use "Restore" on the subscription screen.</p>
+  <section class="faq" aria-label="Frequently asked questions">
+    <p class="eyebrow">Frequently asked</p>
 
-<p><strong>How do I cancel?</strong><br>
-On your iPhone: Settings → your name → Subscriptions → AstroMation → Cancel.</p>
+    <details>
+      <summary>How is my birth chart calculated?</summary>
+      <p>Entirely on your device, using a professional astronomy engine. Your birth data stays
+      on your phone by default.</p>
+    </details>
 
-<h2>Legal</h2>
-<p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+    <details>
+      <summary>What does Premium include?</summary>
+      <p>Unlimited daily readings and the Ask consultation chat. The natal birth chart is free
+      for everyone. Premium is an auto-renewable subscription (monthly or yearly); manage or
+      cancel anytime in your App Store account settings.</p>
+    </details>
 
-<h2>Contact</h2>
-<p>Machinity — <a href="mailto:info@machinity.ai">info@machinity.ai</a></p>
+    <details>
+      <summary>How do I restore a purchase?</summary>
+      <p>Open Settings (the "More" tab) and tap "Restore purchase", or use "Restore" on the
+      subscription screen.</p>
+    </details>
+
+    <details>
+      <summary>How do I cancel?</summary>
+      <p>On your iPhone: Settings → your name → Subscriptions → AstroMation → Cancel.</p>
+    </details>
+  </section>
+
+  <article>
+    <h2 id="legal">Legal</h2>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Use</a></p>
+  </article>
+</main>
+
+<footer class="site-footer">
+  <div class="inner">
+    <span>© 2026 Machinity · AstroMation</span>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="mailto:info@machinity.ai">info@machinity.ai</a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

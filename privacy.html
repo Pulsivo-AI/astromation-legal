@@ -19,7 +19,7 @@
 </head>
 <body>
 <h1>AstroMation — Privacy Policy</h1>
-<p class="muted">Last updated: May 28, 2026</p>
+<p class="muted">Last updated: October 1, 2026</p>
 
 <p>AstroMation (“the app”, “we”, “us”) is an astrology app published by Machinity
 (<a href="mailto:info@machinity.ai">info@machinity.ai</a>). This policy explains what
@@ -46,12 +46,16 @@ is not uploaded to us or to any server as part of normal chart calculation.</p>
 answer in the Ask feature), the app sends the <strong>chart data needed for that
 interpretation</strong> — such as planetary positions, aspects, transit contacts, the
 language you chose, and the question or context you typed — over an encrypted (HTTPS)
-connection to our AI interpretation provider, <strong>OpenRouter</strong>
+connection to our authenticated reading gateway, which calls <strong>OpenRouter</strong>
 (<a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a>), which routes the request
 to the large-language-model provider that generates the text. We send only what is needed to
-produce the reading. We do not send your saved people list, and we do not attach your name or
-contact details to these requests. These requests may be processed on servers located outside
+produce the reading. Selected profile context may be included; we do not send your saved
+people list. Firebase App Check verifies the app, and our gateway applies usage and spending
+limits. These requests may be processed on servers located outside
 your country.</p>
+
+<p>Optional place search sends your place query to OpenStreetMap Nominatim. You can enter
+coordinates instead. Neither place search nor AI is required to calculate a chart.</p>
 
 <h2>4. Subscriptions and payments</h2>
 <p>Premium subscriptions are sold and processed by the <strong>Apple App Store</strong> and
@@ -60,9 +64,29 @@ The app only learns whether an entitlement is active, in order to unlock premium
 Subscriptions are auto-renewable; you can manage or cancel them in your App Store or Google
 Play account settings. See our <a href="terms.html">Terms of Use</a> for details.</p>
 
-<h2>5. Analytics and tracking</h2>
-<p>AstroMation does not include third-party advertising SDKs and does not track you across
-other apps or websites for advertising. We do not sell your personal data.</p>
+<h2>5. Rewarded advertising and optional analytics</h2>
+<p>From version 1.2.9, the free mobile app uses <strong>Google AdMob</strong> rewarded ads
+to unlock new AI natal readings, daily readings, and advisor answers. You choose whether to
+watch an ad. Premium users do not see these ads. Saved readings and on-device chart
+calculations remain accessible without watching another ad.</p>
+<p>The Google Mobile Ads SDK may process your IP address (including approximate location),
+device or advertising identifiers, ad views and interactions, and diagnostics to deliver
+ads, measure performance, and prevent fraud. Ad requests are configured as non-personalized;
+this does not mean that no advertising data is processed. We do not supply your birth data,
+charts, questions, or readings to AdMob. See
+<a href="https://policies.google.com/privacy">Google's privacy policy</a>.</p>
+<p>Google's User Messaging Platform manages advertising consent where applicable. Advertising
+privacy choices are available in Settings when required in your region. We do not request
+Apple's cross-app tracking permission. Separately, optional product analytics starts only
+after your explicit in-app consent. We do not sell your personal data.</p>
+<p lang="tr"><strong>Reklamlar hakkında:</strong> 1.2.9 sürümünden itibaren ücretsiz
+sürümde yeni doğum haritası yorumu, günlük yorum ve danışman yanıtı için isteğe bağlı AdMob
+ödüllü reklamı kullanılır. Premium reklamsızdır; kayıtlı yorumları tekrar okumak ve cihazda
+harita hesaplamak için reklam gerekmez. Google reklam sunumu, ölçüm ve dolandırıcılık önleme
+için IP adresi, yaklaşık konum, cihaz/reklam kimlikleri, reklam etkileşimleri ve tanılama
+verilerini işleyebilir. Doğum bilgilerinizi, haritanızı ve danışmana yazdıklarınızı AdMob'a
+göndermeyiz. Reklam istekleri kişiselleştirilmez; bu, reklam verisi işlenmediği anlamına
+gelmez. Bölgenizde gerekiyorsa reklam gizliliği tercihlerini Ayarlar'dan değiştirebilirsiniz.</p>
 
 <h2>6. Data retention and deletion</h2>
 <p>Because your data lives on your device, you control it. You can delete a saved person at any
